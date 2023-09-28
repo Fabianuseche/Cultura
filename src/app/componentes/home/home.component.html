@@ -1,0 +1,22 @@
+<div class="flex flex-wrap">
+
+    <div *ngFor="let card of cards" class="w-64 h-48 bg-red-300 shadow-lg rounded-lg p-4 mx-4 mb-4"
+        (click)="flipCard(card)">
+        <div [ngClass]="{
+                    'card-front bg-green-200': card.showFront,
+                    'card-back bg-blue-400': !card.showFront
+                }">
+
+            <h2 class="text-xl font-semibold" *ngIf="card.showFront">{{ card.title   }}</h2>
+            <img *ngIf="card.showFront" [src]="card.description" alt="Imagen de la tarjeta" />
+            <p class="text-gray-600" *ngIf="card.showFront"></p>
+
+        </div>
+    </div>
+    <div *ngFor="let card of restartCard">
+        <button (click)="restarGame()"
+            class="bg-green-500 font-bold border border-gray-500 p-2 rounded text-sm flex items-center justify-center m-20">
+            {{ card.title }}
+        </button>
+    </div>
+</div>
