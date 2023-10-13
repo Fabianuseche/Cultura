@@ -8,7 +8,7 @@
                 }">
 
             <h2 class="text-xl font-semibold" *ngIf="card.showFront">{{ card.title   }}</h2>
-            <img *ngIf="card.showFront" [src]="card.description" alt="Imagen de la tarjeta" />
+            <img *ngIf="card.showFront" [src]="card.description" alt="Imagen de la tarjeta"/>
             <p class="text-gray-600" *ngIf="card.showFront"></p>
 
         </div>
@@ -18,6 +18,6 @@
             class="bg-green-500 font-bold border border-gray-500 p-2 rounded text-sm flex items-center justify-center m-20">
             {{ card.title }}
         </button>
-        
+
     </div>
 </div>

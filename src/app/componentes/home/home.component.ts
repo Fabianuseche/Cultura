@@ -13,20 +13,22 @@ export class HomeComponent {
 
 
   cards = [
-    { title: '', description: 'assets/TERESA.jpg', showFront: false, key: "1", completed: false },
-    { title: '', description: 'assets/TERESA.jpg', showFront: false, key: "1", completed: false },
-    { title: '', description: 'assets/PALOMA.jpg', showFront: false, key: "2", completed: false },
-    { title: '', description: 'assets/PALOMA.jpg', showFront: false, key: "2", completed: false },
-    { title: '', description: 'assets/ONU.jpg', showFront: false, key: "3", completed: false },
-    { title: '', description: 'assets/ONU.jpg', showFront: false, key: "3", completed: false },
-    { title: '', description: 'assets/LUM.avif', showFront: false, key: "4", completed: false },
-    { title: '', description: 'assets/LUM.avif', showFront: false, key: "4", completed: false },
-    { title: '', description: 'assets/Cruz-Roja.jpg', showFront: false, key: "5", completed: false },
-    { title: '', description: 'assets/Cruz-Roja.jpg', showFront: false, key: "5", completed: false },
-    { title: '', description: 'assets/CONSTITUCION.png', showFront: false, key: "6", completed: false },
-    { title: '', description: 'assets/CONSTITUCION.png', showFront: false, key: "6", completed: false },
-    { title: '', description: 'assets/images.png', showFront: false, key: "7", completed: false },
-    { title: '', description: 'assets/images.png', showFront: false, key: "7", completed: false },
+    { title: '', description: 'assets/1.jpg', showFront: false, key: "1", completed: false },
+    { title: '', description: 'assets/1.jpg', showFront: false, key: "1", completed: false },
+    { title: '', description: 'assets/2.jpg', showFront: false, key: "2", completed: false },
+    { title: '', description: 'assets/2.jpg', showFront: false, key: "2", completed: false },
+    { title: '', description: 'assets/3.png', showFront: false, key: "3", completed: false },
+    { title: '', description: 'assets/3.png', showFront: false, key: "3", completed: false },
+    { title: '', description: 'assets/4.jpg', showFront: false, key: "4", completed: false },
+    { title: '', description: 'assets/4.jpg', showFront: false, key: "4", completed: false },
+    { title: '', description: 'assets/5.webp', showFront: false, key: "5", completed: false },
+    { title: '', description: 'assets/5.webp', showFront: false, key: "5", completed: false },
+    { title: '', description: 'assets/6.jpg', showFront: false, key: "6", completed: false },
+    { title: '', description: 'assets/6.jpg', showFront: false, key: "6", completed: false },
+    { title: '', description: 'assets/7.png', showFront: false, key: "7", completed: false },
+    { title: '', description: 'assets/7.png', showFront: false, key: "7", completed: false },
+    { title: '', description: 'assets/8.avif', showFront: false, key: "8", completed: false },
+    { title: '', description: 'assets/8.avif', showFront: false, key: "8", completed: false },
 
   ];
  restartCard=[

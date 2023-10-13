@@ -3,7 +3,7 @@ import { AboutComponent } from './componentes/about/about.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { GalleryComponent } from './componentes/core/core.component';
 import { HomeComponent } from './componentes/home/home.component';
-import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+import { WhoWeAreComponent } from './componentes/who-we-are/who-we-are.component';
 
 
 

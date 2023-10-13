@@ -8,9 +8,10 @@ import { AboutComponent } from './componentes/about/about.component';
 import { ContactComponent } from './componentes/contact/contact.component';
 import { GalleryComponent } from './componentes/core/core.component';
 import { HomeComponent } from './componentes/home/home.component';
-import { WhoWeAreComponent } from './who-we-are/who-we-are.component';
+
 import { TabViewModule } from 'primeng/tabview';
 import { ImageModule } from 'primeng/image';
+import { WhoWeAreComponent } from './componentes/who-we-are/who-we-are.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ImageModule } from 'primeng/image';
     GalleryComponent,
     HomeComponent,
     WhoWeAreComponent
+
   ],
   imports: [
     BrowserModule,

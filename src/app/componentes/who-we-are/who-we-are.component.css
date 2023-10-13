@@ -1,0 +1,13 @@
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-container img {
+  max-width: 45%; /* Ajusta este valor según tus preferencias para el tamaño de las imágenes */
+  height: auto;
+  display: block;
+  margin: 5px; /* Espacio entre las imágenes */
+}
+  
