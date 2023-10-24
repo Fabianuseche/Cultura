@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { app_routing } from './app.routes';
 
@@ -12,6 +13,9 @@ import { HomeComponent } from './componentes/home/home.component';
 import { TabViewModule } from 'primeng/tabview';
 import { ImageModule } from 'primeng/image';
 import { WhoWeAreComponent } from './componentes/who-we-are/who-we-are.component';
+import { Juego2Component } from './componentes/juego2/juego2.component';
+import { Juego1Component } from './componentes/juego1/juego1.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +24,10 @@ import { WhoWeAreComponent } from './componentes/who-we-are/who-we-are.component
     ContactComponent,
     GalleryComponent,
     HomeComponent,
-    WhoWeAreComponent
+    WhoWeAreComponent,
+    Juego2Component,
+    Juego1Component,
+
 
   ],
   imports: [
@@ -28,6 +35,7 @@ import { WhoWeAreComponent } from './componentes/who-we-are/who-we-are.component
     TabViewModule,
     ImageModule,
     app_routing,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
